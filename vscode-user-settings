@@ -1,0 +1,40 @@
+{
+  //"security.workspace.trust.untrustedFiles": "open",
+
+  // Editor settings
+  "editor.fontFamily": "CaskaydiaCove NF",
+  //"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.wordWrap": "on",
+  
+  //Workbench settings
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+
+  // Terminal settings
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "terminal.integrated.fontLigatures.enabled": true,
+  //"terminal.integrated.shell.osx": "/usr/local/bin/powershell",
+
+  // PowerShell extension settings
+  "powershell.scriptAnalysis.enable": true,
+  "powershell.integratedConsole.focusConsoleOnExecute": false,
+  "powershell.integratedConsole.showOnStartup": false,
+  "powershell.codeFormatting.autoCorrectAliases": true,
+  "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+  "powershell.codeFormatting.newLineAfterOpenBrace": false,
+  "powershell.codeFormatting.useConstantStrings": true,
+  "powershell.codeFormatting.useCorrectCasing": true,
+  "powershell.codeFormatting.whitespaceBeforeOpenParen": true,
+  "powershell.codeFormatting.ignoreOneLineBlock": true,
+  "powershell.codeFormatting.newLineAfterCloseBrace": true,
+  "powershell.codeFormatting.alignPropertyValuePairs": true,
+  "powershell.codeFormatting.whitespaceAfterSeparator": true,
+  "powershell.codeFormatting.whitespaceAroundOperator": true,
+  "powershell.codeFormatting.openBraceOnSameLine": false
+}
