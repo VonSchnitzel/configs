@@ -85,6 +85,30 @@
         }
       ],
       "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "background": "#546E7A",
+          "foreground": "#D4E157",
+          "leading_diamond": "\ue0b2",
+          "style": "diamond",
+          "template": " {{ .UserName }}@{{ .HostName }} <#26C6DA>\ue0b3</> ",
+          "type": "session"
+        },
+        {
+          "background": "#546E7A",
+          "foreground": "#D4E157",
+          "options": {
+            "time_format": "3:04:05 PM"
+          },
+          "style": "plain",
+          "template": " {{ .CurrentDate | date .Format }} \uf017 ",
+          "type": "time"
+        }
+      ],
+      "type": "prompt"
     }
   ],
   "console_title_template": "{{if .Root}} \u26a1 {{end}}{{.Folder | replace \"~\" \"🏠\"}} @ {{.HostName}}",
