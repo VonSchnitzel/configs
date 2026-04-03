@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
-      "alignment": "right",
+      "alignment": "left",
       "segments": [
         {
           "background": "#0C212F",
-          "foreground": "#DE2121",
+          "foreground": "#FFFFFF",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
           "template": " {{ .Icon }} ",
