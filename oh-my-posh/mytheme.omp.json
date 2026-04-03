@@ -88,19 +88,7 @@
           "template": "<transparent> \uf12a</> {{ reason .Code }} ",
           "trailing_diamond": "\ue0b0",
           "type": "status"
-        }
-      ],
-      "alignment": "right",
-      "segments": [
-         {
-          "background": "#910000",
-          "foreground": "#ffffff",
-          "leading_diamond": "<transparent,background>\ue0b0</>",
-          "style": "diamond",
-          "template": "<transparent> \uf12a</> {{ reason .Code }} ",
-          "trailing_diamond": "\ue0b0",
-          "type": "status"
-        }
+        },
       ],
       "type": "prompt"
     }
