@@ -24,7 +24,8 @@
         },
         {
           "background": "#26BDBB",
-          "foreground": "#0C212F",
+          #"foreground": "#0C212F",
+          "foreground": "#FFFFFF",
           "leading_diamond": "<transparent,#26BDBB>\ue0b0</>",
           "options": {
             "folder_icon": "...",
@@ -69,7 +70,8 @@
         },
         {
           "background": "#26BDBB",
-          "foreground": "#0C212F",
+          #"foreground": "#0C212F",
+          "foreground": "#FFFFFF",
           "leading_diamond": "<transparent,#26BDBB>\ue0b0</>",
           "options": {
             "style": "dallas",
