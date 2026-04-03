@@ -29,7 +29,7 @@
           "options": {
             "folder_icon": "...",
             "folder_separator_icon": "<transparent> \ue0b1 </>",
-            "home_icon": "\ueb06",
+            "home_icon": "\uf015",
             "style": "agnoster_short"
           },
           "style": "diamond",
