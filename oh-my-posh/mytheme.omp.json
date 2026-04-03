@@ -90,7 +90,6 @@
           "type": "status"
         },
       "type": "prompt"
-    }
   ],
   "console_title_template": "{{if .Root}} \u26a1 {{end}}{{.Folder | replace \"~\" \"🏠\"}} @ {{.HostName}}",
   "final_space": true,
