@@ -56,18 +56,6 @@
           "type": "git"
         },
         {
-          "background": "#0C212F",
-          "foreground": "#FFFFFF",
-          "leading_diamond": "<transparent,#0C212F>\ue0b0</>",
-          "options": {
-            "time_format": "15:04"
-          },
-          "style": "diamond",
-          "template": " {{ .CurrentDate | date .Format }} ",
-          "trailing_diamond": "\ue0b0",
-          "type": "time"
-        },
-        {
           "background": "#26BDBB",
           "foreground": "#FFFFFF",
           "leading_diamond": "<transparent,#26BDBB>\ue0b0</>",
