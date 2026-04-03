@@ -56,19 +56,6 @@
           "type": "git"
         },
         {
-          "background": "#26BDBB",
-          "foreground": "#FFFFFF",
-          "leading_diamond": "<transparent,#26BDBB>\ue0b0</>",
-          "options": {
-            "style": "dallas",
-            "threshold": 0
-          },
-          "style": "diamond",
-          "template": " {{ .FormattedMs }}s ",
-          "trailing_diamond": "\ue0b0",
-          "type": "executiontime"
-        },
-        {
           "background": "#910000",
           "foreground": "#ffffff",
           "leading_diamond": "<transparent,background>\ue0b0</>",
