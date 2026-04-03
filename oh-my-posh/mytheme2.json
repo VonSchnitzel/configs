@@ -85,24 +85,7 @@
         }
       ],
       "type": "prompt"
-    },
-    {
-      "alignment": "right",
-      "segments": [
-        {
-          "background": "#4d4d4d",
-          "foreground": "#43CCEA",
-          "options": {
-            "time_format": "3:04:05 PM"
-          },
-          "style": "diamond",
-          "template": "<#000000> \ue31e\uf0fb </>{{ .CurrentDate | date .Format }} ",
-          "trailing_diamond": "\ue0c5",
-          "type": "time"
-        }
-      ],
-      "type": "prompt"
-    },
+    }
   ],
   "console_title_template": "{{if .Root}} \u26a1 {{end}}{{.Folder | replace \"~\" \"🏠\"}} @ {{.HostName}}",
   "final_space": true,
