@@ -67,6 +67,21 @@
       ],
       "type": "prompt"
     },
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "foreground": "#FFFFFF",
+          "options": {
+            "time_format": "3:04 PM"
+          },
+          "style": "plain",
+          "template": " {{ .CurrentDate | date .Format }} \uf017 ",
+          "type": "time"
+        }
+      ],
+      "type": "prompt"
+    },
      {
       "alignment": "left",
       "newline": true,
@@ -82,22 +97,6 @@
           "style": "plain",
           "template": "\u276f ",
           "type": "status"
-        }
-      ],
-      "type": "prompt"
-    },
-    {
-      "alignment": "right",
-      "segments": [
-        {
-          "background": "#26BDBB",
-          "foreground": "#FFFFFF",
-          "options": {
-            "time_format": "3:04 PM"
-          },
-          "style": "plain",
-          "template": " {{ .CurrentDate | date .Format }} \uf017 ",
-          "type": "time"
         }
       ],
       "type": "prompt"
